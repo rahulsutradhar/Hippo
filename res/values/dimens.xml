@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="message_list_item_vertical_mergin">8dp</dimen>
+    <dimen name="inbox_vertical_mergin">4dp</dimen>
+    <dimen name="inbox_horizontal_mergin">8dp</dimen>
+    <dimen name="friends_horizontal_mergin">10dp</dimen>
+    <dimen name="message_vertical_padding">8dp</dimen>
+    <dimen name="recipient_text_size">18sp</dimen>
+
+</resources>

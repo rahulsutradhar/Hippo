@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeebe8"
+    android:orientation="vertical"
+    android:padding="1dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/nameLebel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+             android:textSize="15sp"
+            android:fontFamily="arial"
+            android:paddingLeft="15dp"
+            android:text="User Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#c9000e" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameLebel"
+            android:background="#ffffff"
+            android:fontFamily="arial"
+             android:textSize="20sp"
+            android:paddingLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/emailLebel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+             android:textSize="15sp"
+            android:fontFamily="arial"
+            android:paddingLeft="15dp"
+            android:text="Email ID"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#c9000e" />
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailLebel"
+            android:background="#ffffff"
+             android:textSize="20sp"
+            android:fontFamily="arial"
+            android:paddingLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/phoneLebel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:fontFamily="arial"
+             android:textSize="15sp"
+            android:paddingLeft="15dp"
+            android:text="Mobile Number"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#c9000e" />
+
+        <TextView
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:fontFamily="arial"
+            android:layout_below="@+id/phoneLebel"
+            android:paddingLeft="15dp"
+             android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+             />
+
+       
+    </RelativeLayout>
+
+</LinearLayout>

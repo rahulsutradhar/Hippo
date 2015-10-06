@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.messaging.hippo.ui.MainActivity" >
+
+   
+    <item 
+        android:id="@+id/user_profile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/user_profile_lebel"
+        />
+    
+    
+    <item 
+        android:id="@+id/edit_friend_activity"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/edit_friends_lebel"
+        />
+
+     <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_logout"/>
+     
+     <item 
+         android:id="@+id/action_camera" 
+         android:showAsAction="always" 
+         android:icon="@drawable/ic_action_ic_action_camera" 
+         android:title="@string/menu_camera_lebel" />
+     
+</menu>

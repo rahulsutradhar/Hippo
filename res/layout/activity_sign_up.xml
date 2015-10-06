@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.messaging.hippo.SignUpActivity" >
+
+    <LinearLayout
+        android:id="@+id/signuplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/usernameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableRight="@drawable/username_icon"
+            android:ems="10"
+            android:hint="@string/signup_person_name"
+            android:inputType="textCapWords"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textColorLink="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableRight="@drawable/email_icon"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableRight="@drawable/password_icon"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/phonenumberField"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableRight="@drawable/mobile_phone_icon"
+            android:ems="10"
+            android:hint="@string/signup_mobile_number"
+            android:inputType="phone"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <LinearLayout
+        android:id="@+id/buttonlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Sign Up"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+          	android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rounded_cancelbutton"
+            android:text="Cancel"
+            android:textColor="#d90000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        
+        </LinearLayout>>
+    </LinearLayout>
+
+</LinearLayout>

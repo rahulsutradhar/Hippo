@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_red_background">#eee8e8</color>
+     <color name="light_grey">#b2b2b2</color>
+     
+     <color name="title_red">#c9000e</color>
+     <color name="swipe_refresh2">#e47f86</color>
+     <color name="swipe_refresh3">#d94c56</color>
+     <color name="swipe_refresh4">#f4ccce</color>
+     <color name="white">#ffffff</color>
+    
+</resources>

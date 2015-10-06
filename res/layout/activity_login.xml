@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_bg"
+    android:gravity="fill"
+    tools:context="com.messaging.hippo.LoginActivity" >
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Hippo"
+        android:textColor="#ffffff"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/description"
+        android:background="@null"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <EditText
+            android:id="@+id/loginphoneField"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableRight="@drawable/username_icon"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Mobile number"
+            android:inputType="phone"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textColorLink="#000000"
+            android:textSize="20sp" >
+
+            
+        </EditText>
+      
+            
+
+        <EditText
+            android:id="@+id/loginPasswordField"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableRight="@drawable/password_icon"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:padding="10dip"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="15dp"
+            android:text="Log In"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signupTextView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+             android:text="Create an account"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/appname"
+        android:layout_below="@+id/appname"
+        android:paddingLeft="30dp"
+        android:ems="10"
+		android:text="Click and Share"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    
+
+
+</RelativeLayout>

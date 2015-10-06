@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/inbox_horizontal_mergin"
+        android:layout_marginRight="@dimen/inbox_horizontal_mergin"
+        android:layout_marginTop="@dimen/inbox_vertical_mergin"
+		android:layout_marginBottom="@dimen/inbox_vertical_mergin"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/contactIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/message_list_item_vertical_mergin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/message_list_item_vertical_mergin"
+            android:src="@drawable/ic_action_action_account_circle" />
+
+        <TextView
+            android:id="@+id/friendsLebel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/contactIcon"
+            android:paddingLeft="@dimen/friends_horizontal_mergin"
+            android:text="Text View"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/recipient_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>
